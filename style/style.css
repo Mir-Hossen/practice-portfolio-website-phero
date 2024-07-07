@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 226px;
+
 
 }
 .nav .nav-tittle 
@@ -41,6 +41,7 @@
     color: 181818;
     font-weight: 800;
     margin-top: 50px;
+    margin: 0px 226px;
 }
 .nav .nav-tittle span
 {
@@ -52,8 +53,8 @@
 .nav ul li a {
     display: block;
     text-decoration: none;
-    margin-left: 50px;
     margin-top: 50px;
+    margin-right: 70px;
 }
 
 .dark-color
@@ -80,7 +81,7 @@
 }
 .banner-content
 {
-    margin: 80px 0 0 226px;
+    margin: 180px 0 0 226px;
 }
 .banner-intro
 {
@@ -135,4 +136,58 @@
     margin-top: 15px;
     margin-right: 50px;
 
+}
+
+/* about me section css start here  */
+.aboutMe-container
+{
+    width: 1140px;
+    height: 550px;
+    margin:130px auto 0;
+    background-color: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutMe-content
+{
+    text-align: center;
+    width: 827px;
+    background-color: #FFFFFF;
+}
+
+.aboutMe-tittle{
+    color:#181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.aboutMe-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.aboutMe-4card
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 10px 0;
+
+}
+.name-tittle
+{
+    color: #474747;
+    font-size: 20px;
+    font-weight: normal;
+}
+.name
+{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
 }
