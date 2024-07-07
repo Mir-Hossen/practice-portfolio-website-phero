@@ -7,3 +7,16 @@
     box-sizing: border-box;
     font-family: ;
 }
+
+/* header style css start here  */
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-tittle 
+{
+    font-size: 45px;
+    color: 181818;
+}
