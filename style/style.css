@@ -191,3 +191,70 @@
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
 }
+/* .experiance section css strat here  */
+.experinace-container
+{
+    width: 1140px;
+    height: 595px;
+    margin: 124px 230px 0 230px;
+}
+.experiance-content{
+    text-align: center;
+}
+.experiance-tittle
+{ 
+    color:#181818 ;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.experiance-description
+{
+    color: #757575;
+    font-size: 18px;
+    font-weight:normal;
+    font-family: "Open Sans";
+    width: 909px;
+    height: 90px;
+    margin:25px auto 0;
+}
+.experiance-card-container
+{
+    display: flex;
+    width: 1140px;
+    height: 377px;
+    margin-top: 55px;
+}
+.card 
+{
+    width: 290px;
+    height: 340px;
+    margin:0 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 3px #00000049;
+}
+.card img
+{
+    display: block;
+    margin: 30px 0 0 30px;
+}
+.card-tittle
+{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    width: 174px;
+    height: 27px;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px 30px ;
+
+}
+.card-description
+{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 30px;
+}
+
